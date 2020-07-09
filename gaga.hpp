@@ -294,6 +294,7 @@ template <typename DNA, typename Fp = simpleVec> class GA {
 	void setPopSaveInterval(unsigned int n) { savePopInterval = n; }
 	void setGenSaveInterval(unsigned int n) { saveGenInterval = n; }
 	void setSaveFolder(string s) { folder = s; }
+	string getSaveFolder() { return folder; }
 	void setNbThreads(unsigned int n) {
 		if (n >= nbThreads)
 			tp.add_threads(n - nbThreads);
