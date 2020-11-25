@@ -5,3 +5,6 @@ evos
 *.gch*
 *.pyc
 __pycache__
+bin
+compile_commands.json
+.clangd
